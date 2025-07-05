@@ -1,23 +1,15 @@
 {
-  "name": "express",
+  "name": "tres",
   "version": "1.0.0",
-  "description": "",
   "main": "servidor.js",
   "scripts": {
+    "start": "node servidor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bairon-page/express.git"
-  },
   "keywords": [],
-  "author": "Bairon ordonez",
+  "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Bairon-page/express/issues"
-  },
-  "homepage": "https://github.com/Bairon-page/express#readme",
+  "description": "",
   "dependencies": {
     "express": "^5.1.0"
   }
