@@ -1,6 +1,13 @@
 let express = require('express');
 let app = express();
-let fs = require('fs')
+let fs = require('fs');
+const cors = require('cors');
+app.use(cors({
+  origin: '*', // Reemplaza con tu dominio
+  methods: ['POST', 'GET']
+}));
+
+
 
 
 
