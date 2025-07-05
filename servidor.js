@@ -1,6 +1,7 @@
 let express = require('express');
 let app = express();
 let fs = require('fs');
+let {exec} = require('chlid_process');
 const cors = require('cors');
 app.use(cors({
   origin: '*', // Reemplaza con tu dominio
@@ -23,6 +24,12 @@ app.get('/', (req,res) => {
     
     
     
+});
+
+app.get('/pedirar', (req,res) => {
+exec('cat archivo.txt',(_,r) => { console.log(r)});
+
+
 });
 
 app.post('/enviar', (req,res) => {
