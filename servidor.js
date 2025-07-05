@@ -10,7 +10,7 @@ app.use(express.text({type:'text/plain'}));
 app.get('/', (req,res) => {
     
     
-    res.sendFile(__dirname+'index.html');
+    res.sendFile(__dirname+'/index.html');
     
     
     
