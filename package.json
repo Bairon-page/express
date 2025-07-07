@@ -1,25 +1,17 @@
 {
-  "name": "express",
+  "name": "node_por_mi",
   "version": "1.0.0",
   "description": "",
   "main": "servidor.js",
   "scripts": {
-    "start": "node servidor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bairon-page/express.git"
-  },
   "keywords": [],
-  "author": "Bairon ordonez",
+  "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Bairon-page/express/issues"
-  },
-  "homepage": "https://github.com/Bairon-page/express#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^2.50.3",
     "express": "^5.1.0"
   }
 }
