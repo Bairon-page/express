@@ -1,13 +1,12 @@
 let express = require('express');
 let app = express();
-let path = require('path');
+
 let { createClient } = require('@supabase/supabase-js') ;
 
 
 const cors = require('cors');
 app.use(cors()); // Permite todas las solicitudes (ajusta esto en producción)
 
-app.use(express.static(path.join(__dirname+'/www'),{index:'index.html'}));
 
 app.use(express.text({type:'text/plain'}))
 
