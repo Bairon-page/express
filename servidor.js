@@ -58,7 +58,7 @@ app.post('/enviar', (req,res) => {
 
 // si voy a escribir escuchando y me llama mucho la atencion algo que tenva que ver con una plabara que empieze por esc escribire esa palabra en vez de escuchando.
 
-app.listen(3000,'0.0.0.0' () => {
+app.listen(3000,'0.0.0.0' ,() => {
     
     
     console.log('escuchando puerto:3000')
